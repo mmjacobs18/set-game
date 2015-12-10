@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 import copy
+import kivy
 from card import Card
 from random import shuffle
+from kivy.app import App
+from kivy.uix.label import Label
 
 colors=["red","green","purple"]
 shapes=["diamond","squiggle","elipse"]
